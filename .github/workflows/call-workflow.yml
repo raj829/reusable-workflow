@@ -4,3 +4,5 @@ on: push
 jobs:
     call-greeings:
         uses: ./.github/workflows/reusable.yml
+        with:
+            name: "Raj"
